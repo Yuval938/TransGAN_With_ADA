@@ -1,0 +1,6 @@
+scipy
+numpy
+torch==1.13.1
+torchvision
+tensorboardX
+tqdm
