@@ -69,10 +69,10 @@ These parameters were kept constant across all experiments to isolate the effect
 
 | Methods                         | FID (lower is better) |
 |---------------------------------|-----------------------|
-| Test 1 (Baseline)               | 27.68                 |
-| Test 2 (Augmentation Incrementation) | 29.15           |
-| Test 3 (Dynamic ADA Model)      | 26.42                 |
-| Test 4 (Early-Stage ADA Model)  | 24.00                 |
+| Test 1 (Baseline)               | 27.93                 |
+| Test 2 (Augmentation Incrementation) | 29.10           |
+| Test 3 (Dynamic ADA Model)      | 26.34                 |
+| Test 4 (Early-Stage ADA Model)  | 24.37                 |
 
 ### Discussion and Conclusion
 
@@ -89,25 +89,25 @@ Despite this, we observed a significant reduction in augmentation leakage while 
 ## Metrics and Sampled Images
 
 ### Test 1 (Baseline Model)
-![FID scores for Test 1](test1_FID.jpeg)
-![Generator and Discriminator Losses for Test 1](test1_loss.jpeg)
-![P value changes for Test 1](images/test1_P_value.jpeg)
-![Sampled image for Test 1](images/test1_image.jpeg)
+![FID scores for Test 1](./images/test1_FID.jpeg)
+![Generator and Discriminator Losses for Test 1](./images/test1_loss.jpeg)
+![P value changes for Test 1](./images/test1_P_value.jpeg)
+![Sampled image for Test 1](./images/test1_image.jpeg)
 
 ### Test 2 (Augmentation Incrementation Model)
-![FID scores for Test 2](images/test2_FID.jpeg)
-![Generator and Discriminator Losses for Test 2](test2_loss.jpeg)
-![P value changes for Test 2](images/test2_P_value.jpeg)
-![Sampled image for Test 2](images/test2_image.jpeg)
+![FID scores for Test 2](./images/test2_FID.jpeg)
+![Generator and Discriminator Losses for Test 2](./images/test2_loss.jpeg)
+![P value changes for Test 2](./images/test2_P_value.jpeg)
+![Sampled image for Test 2](./images/test2_image.jpeg)
 
 ### Test 3 (Dynamic ADA Model)
-![FID scores for Test 3](images/test3_FID.jpeg)
-![Generator and Discriminator Losses for Test 3](test3_loss.jpeg)
-![P value changes for Test 3](images/test3_P_value.jpeg)
-![Sampled image for Test 3](images/test3_image.jpeg)
+![FID scores for Test 3](./images/test3_FID.jpeg)
+![Generator and Discriminator Losses for Test 3](./images/test3_loss.jpeg)
+![P value changes for Test 3](./images/test3_P_value.jpeg)
+![Sampled image for Test 3](./images/test3_image.jpeg)
 
 ### Test 4 (Early-Stage ADA Model)
-![FID scores for Test 4](images/test4_FID.jpeg)
-![Generator and Discriminator Losses for Test 4](test4_loss.jpeg)
-![P value changes for Test 4](images/test4_P_value.jpeg)
-![Sampled image for Test 4](images/test4_image.jpeg)
+![FID scores for Test 4](./images/test4_FID.jpeg)
+![Generator and Discriminator Losses for Test 4](./images/test4_loss.jpeg)
+![P value changes for Test 4](./images/test4_P_value.jpeg)
+![Sampled image for Test 4](./images/test4_image.jpeg)
